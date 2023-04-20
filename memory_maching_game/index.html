@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="./momery.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+ 
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+            <div class="game-start-btn">
+                <button><span style="font-size: 20px;">START GAME</span></button>
+            </div>
+        </header>
+        <section class="score-panel">
+          <div class="score stars-container">
+
+        	   <ul class="stars">
+        		     <li><i class="fa fa-star"></i></li>
+        		     <li><i class="fa fa-star"></i></li>
+        		     <li><i class="fa fa-star"></i></li>
+        	   </ul>
+          </div>
+
+          <div class="score timing">
+            <span class="time">Time</span> <span class="clock">00:00</span>
+          </div>
+         
+
+          <div class="score moves-score">
+        	   <span class="moves">0</span><span class="movesWord">Moves</span>
+          </div>
+
+          <div class="score restart">
+        		    <i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        
+       
+        <ul class="deck">
+            <li class="card">
+                <i class="fa-brands fa-html5"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-css3-alt"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-square-js"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-npm"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-react"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-node-js"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-gulp"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-square-js"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-html5"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-github"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-gulp"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-github"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-npm"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-node-js"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-css3-alt"></i>
+            </li>
+            <li class="card">
+                <i class="fa-brands fa-react"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div id="winner" class="overlay">
+      <div class="popup">
+        <p class="header">Congratulations!😍</p>
+        <div class="final-rating">
+          <span id="star-rating"></span>
+        </div>
+
+        <div class="message">
+            <h1></h1>
+            <h3> You won!🎉 <span id="final-move"></span> moves</h3>
+            <p>in <span id="total-time"></span>seconds!</p>
+
+           
+        </div>
+        <button class="play-again">Play again!</button>
+        <!-- <div class="message">
+          <p>You won in <span id="final-move"></span> moves </p>
+          <p>in <span id="total-time"></span>!</p>
+        </div>
+        <button class="play-again">Play Again</button>
+      </div>
+    </div> -->
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+<script src="./memory.js"></script>
+</html>
